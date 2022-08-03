@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: #000;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-brand:hover{
+    color: #000;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #000;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    border: 2px solid #ff0000;
+    outline: none;
+    margin-right: -49px;
+}
+.btn0{
+    height: 40px;
+    width: 34%;
+    outline: none;
+    border: 2px solid #ff0000;
+    background: #ff0000;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+    border: 2px solid #ff0000;
+}
+.main{
+    background: url(img/Bg-header.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background: #ce0707;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 17px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 17px -4px rgba(0,0,0,0.75);
+    transition: all 0.5s;
+    margin-top: -15px;
+}
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url(img/Bg-section.jpg) no-repeat center;
+    background-size: cover;
+    background-position: 80% 24%;
+    height: 70vh;
+    width: 100%;
+    background-origin: border-box;
+    object-fit: cover;
+}
